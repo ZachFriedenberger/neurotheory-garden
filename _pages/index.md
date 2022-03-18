@@ -5,15 +5,17 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+# Welcome to the neurotheory garden!🧠
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
+  To get started on your exploration of the site, take a look at topics listed on the <span style="font-weight: bold">[[table of contents]]</span>, recent additions on the <span style="font-weight: bold">[[change log]]</span>, or what has been checked off the <span style="font-weight: bold">[[learning to do list]]</span>.
 </p>
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+This is a digital garden where I form new ideas and synapses by creating a web of interconnected notes, blog posts, and paper summaries. Themes cover a broad range of topics in neuroscience, mathematics, physics, machine learning, and philosophy of science. 
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+
+The purpose of creating this site is to share my notes, organize my thoughts, and improve my writing. Therefore, this site is a continual work in progress and notes may contain conceptual errors or typos. Feel free to reach out if you have any comments or suggestions!  
+
 
 <style>
   .wrapper {
