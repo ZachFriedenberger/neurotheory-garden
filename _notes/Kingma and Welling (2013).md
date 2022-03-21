@@ -1,5 +1,5 @@
 ---
-title: Auto-Encoding Variational Bayes
+title: Auto-Encoding Variational Bayes 🟩
 usemathjax: true
 ---
 
@@ -27,13 +27,13 @@ usemathjax: true
 Consider dataset $\bf{X}=\\{x^{(i)}\\}^{N}\_{i=1}$ with $N$ i.i.d. samples of random variable $\bf{x}$. Where $\bf{x}$ depends on the outcome of some unobserved latent varaible $\bf{z}$. i.e., $\bf{x} \sim p_{\Theta}(\mathbf{x}\vert\bf{z})p_{\Theta}(\mathbf{z})$.  
 
 
-Want to perform inference in the case where there is:
+We want to perform inference in the case where there is:
 
 1. *Intractability*: marginal likelihood $p_{\Theta}(x)$ or the posterior density is intractable $p_{\Theta}(z \vert x)$ 
 2. *Large datasets*: dataset is too large for [[sampling-based inference]] 
  
 
-Want a solution that has:
+And we look for a solution that has:
 
 1. Efficeint MLE/MAP estimation of the parameters $\Theta$. 
 2. Efficient approximate posterior inferrence of the latent variables $\bf{z}$, given observations $\bf{X}$ and a set of parameters $\Theta$.
@@ -143,6 +143,14 @@ Which gives us the following optmization/inference algorithm:
 
 <img src="/assets/AEVB algorithm.png"/>
 
+
+## Full VB
+- Here is the extension to variational inference of both the generative model parameters $\mathbf{\Theta}$ and the latent variables $\mathbf{z}$ as opposed to just the latent varaibles $\textbf{z}$ as shown above.
+
+
+
+
+
 ## Variational Auto-Encoder Example
 
 - Let prior over the latents be a standard normal $p_{\Theta}(z)=\mathcal{N}(z;0,I)$
@@ -164,9 +172,6 @@ $$\begin{align} \log{p_{\Theta}(x|z)} &= \sum_{i=1}^{D} x_{i}\log{y_{i}} + (1-x_
 
 ### Gaussian MLP decoder/encoder
 $$\begin{align} \log{p_{\Theta}(x|z)} &= \log{\mathcal{N}(x;\mu, \sigma^{2}I)} \\ \mu &= W_{4}h + b_{4}\\ \log{\sigma^{2}} &= W_{5}h + b_{5}\\ h &= \tanh{(W_{3}z +b_{3})}\\\Theta &= \{W_{3}, W_{4},W_{5},  b_{3}, b_{4}, b_{5}\}\end{align}$$
-
-
-
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Amortized Variational Inference
+title: Amortized Variational Inference 🟨
 usemathjax: true
 ---
 
@@ -9,7 +9,7 @@ usemathjax: true
 
 ## Issues with regular VI 
 - Need to introduce a separate parameters for each observation (assuming that each observation $x$ has a corresponding latent variable $z$). 
-	- e.g. For gaussian posterior approximation $p_{\Theta}(z|x)$, we would need a mean and variance for each observation (data-point)
+	- e.g. For gaussian posterior approximation $p_{\Theta}(z \vert x)$, we would need a mean and variance for each observation (data-point)
 	- Scales at minimum linearly with the number of data-points
 	- Need to retrain model when new data becomes available
 
@@ -19,3 +19,6 @@ usemathjax: true
 	- Gap goes away for a network with infinite capacity 
 - Constraints set by range of the network output
 	- e.g. Sigmoid outputs limit range from 0 to 1
+
+
+- 

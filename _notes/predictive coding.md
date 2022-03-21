@@ -1,5 +1,5 @@
 ---
-title: Predictive Coding
+title: Predictive Coding 🟨
 usemathjax: true
 ---
 
@@ -72,7 +72,7 @@ $$\nabla_{z}\mathcal{L}(\bf{z};\Theta) = \bf{W}^{T}\bigg(\frac{\bf{x}-\bf{Wz}}{\
 $$\nabla_{z}\mathcal{L}(\bf{z};\Theta) = \bf{W}^{T}\bf{\xi_{x}} - \bf{\xi_{z}}$$
 
 $$\nabla_{W}\mathcal{L}(\bf{z};\Theta) = \bf{\xi_{x}}\bf{z^{T}}$$
-- Conditional likelihood $p_{\Theta}(x|z)$ is implemented by feedback connections while inference $\nabla_{z}\mathcal{L}(\bf{z};\Theta)$  is implemeted by the forward connections. Local errors $\xi_{x}$   and $\xi_{z}$ are implemeted using interneurons. 
+- Conditional likelihood $p_{\Theta}(x\vert z)$ is implemented by feedback connections while inference $\nabla_{z}\mathcal{L}(\bf{z};\Theta)$  is implemeted by the forward connections. Local errors $\xi_{x}$   and $\xi_{z}$ are implemeted using interneurons. 
 	- Not quite clear on this yet!!?
 
 
@@ -85,7 +85,7 @@ $$\nabla_{W}\mathcal{L}(\bf{z};\Theta) = \bf{\xi_{x}}\bf{z^{T}}$$
 
 
 ## Review papers
-- Marino (2021) - Predictive coding + Autoencoders
+- Marino (2021) - Predictive coding + Autoencoders (this is the original paper I used to write these notes)
 
 
 ## New papers
