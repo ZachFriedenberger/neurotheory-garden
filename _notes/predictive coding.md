@@ -1,5 +1,5 @@
 ---
-title: Predictive Coding 🟨
+title: Predictive Coding 🟥
 usemathjax: true
 ---
 

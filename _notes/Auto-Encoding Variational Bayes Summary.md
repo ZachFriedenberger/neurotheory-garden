@@ -1,5 +1,5 @@
 ---
-title: Auto-Encoding Variational Bayes 🟩
+title: Auto-Encoding Variational Bayes 🟥
 usemathjax: true
 ---
 
@@ -29,22 +29,22 @@ Consider dataset $\bf{X}=\\{x^{(i)}\\}^{N}\_{i=1}$ with $N$ i.i.d. samples of ra
 
 We want to perform inference in the case where there is:
 
-1. *Intractability*: marginal likelihood $p_{\Theta}(x)$ or the posterior density is intractable $p_{\Theta}(z \vert x)$ 
+1. *Intractability*: marginal likelihood $p_{\mathbf{\Theta}}(\mathbf{x})$ or the posterior density is intractable $p_{\mathbf{\Theta}}(\mathbf{z} \vert \mathbf{x})$ 
 2. *Large datasets*: dataset is too large for [[sampling-based inference]] 
  
 
 And we look for a solution that has:
 
-1. Efficeint MLE/MAP estimation of the parameters $\Theta$. 
-2. Efficient approximate posterior inferrence of the latent variables $\bf{z}$, given observations $\bf{X}$ and a set of parameters $\Theta$.
-3. Efficeint marginal inference of variable $\bf{x}$. Which is necessary when a prior over $\bf{x}$ is required. 
+1. Efficeint MLE/MAP estimation of the parameters $\mathbf{\Theta}$. 
+2. Efficient approximate posterior inferrence of the latent variables $\mathbf{z}$, given observations $\mathbf{X}$ and a set of parameters $\mathbf{\Theta}$.
+3. Efficeint marginal inference of variable $\mathbf{x}$. Which is necessary when a prior over $\mathbf{x}$ is required. 
 
 
 # Solution 
 
-- We introduce a variational distribution $q_{\mathbf{\phi}}(\mathbf{z}\vert\mathbf{x})$  as an approximation to the true intractable posterior $p_{\mathbf{\Theta}}(\mathbf{z}\vert\mathbf{x})$. 
+- We introduce a variational distribution $q_{\mathbf{\mathbf{\phi}}}(\mathbf{z}\vert\mathbf{x})$  as an approximation to the true intractable posterior $p_{\mathbf{\Theta}}(\mathbf{z}\vert\mathbf{x})$. 
 
-- We can think of $\bf{z}$ as a latent [[representation]] or *code*.  Then, from this perspective $q_{\mathbf{\phi}}(\mathbf{z} \vert \mathbf{x})$ can be thought of as a **probabilistic encoder** and $p_{\mathbf{\Theta}}(\mathbf{x} \vert \mathbf{z})$ as a **probabilistic decoder**. 
+- We can think of $\bf{z}$ as a latent [[representation]] or *code*,  $q_{\mathbf{\mathbf{\phi}}}(\mathbf{z} \vert \mathbf{x})$ as a **probabilistic encoder**, and $p_{\mathbf{\mathbf{\Theta}}}(\mathbf{x} \vert \mathbf{z})$ as a **probabilistic decoder**. 
 
 - We perform inference by combining [[amortized variational inference]] and a [[pathwise-based gradient estimator]]
 
@@ -101,7 +101,7 @@ Need to work out estimator for model above as an example!
 - Also known as a [[pathwise-based gradient estimator]]
 	- Sometimes called the "push-in method" because the parameters are pushed inside and do not appear directly in the expectation
 - Sample from a simpler base distribution then scale (e.g., Gaussian varaible can be representated as a mean + varaince)
-- Has lower variance than score-based estimator when the number of parameters is large (WHY??)
+- Has lower variance than score-based estimator when the number of parameters is large - Monte Carlo Gradient Estimation in Machine Learning 2020 (WHY??)
 
 
 First we reparameterize $z \sim q_{\phi}(z \vert x)$ using the differentiable transformation $g_{\phi}(\epsilon, x)$ , where $\epsilon$ is an auxillary noise varaible
@@ -148,7 +148,9 @@ Which gives us the following optmization/inference algorithm:
 - Here is the extension to variational inference of both the generative model parameters $\mathbf{\Theta}$ and the latent variables $\mathbf{z}$ as opposed to just the latent varaibles $\textbf{z}$ as shown above.
 
 
+- Introduce a variational prior $q_{\mathbf{\phi}}(\mathbf{\Theta})$ as an approximation to the true prior $p_{\mathbf{\alpha}}(\mathbf{\Theta})$
 
+- 
 
 
 ## Variational Auto-Encoder Example

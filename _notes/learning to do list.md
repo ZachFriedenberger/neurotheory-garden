@@ -11,12 +11,12 @@ usemathjax: true
 
 ## Neuroscience
 - [ ] predictive coding 🚧
-- [ ] free energy principle
-- [ ] cerebellum
-- [ ] cortex
-- [ ] hippocampus
-- [ ] thalamus
-- [ ] supervised syanptic plasticity
+- [ ]  free energy principle
+- [ ]  cerebellum
+- [ ]  cortex
+- [ ]  hippocampus
+- [ ]  thalamus
+- [ ]  supervised syanptic plasticity
 
 ## Mathematics
 - [ ] information-theory basics
@@ -27,13 +27,6 @@ usemathjax: true
 - [ ] real analysis / measure theory
 - [ ] sampling based inference
 
-## Physics
-- [ ] non-equilibrium statistical mechanics
-- [ ] statistical mechanics of neural networks
-- [ ] theory of complex systems 
-	- [ ] networks 
-	- [ ] scaling laws 
-- [ ] biophysics of fluids
 
 ## Machine Learning
 - [ ] variational auto-encoders 🚧
@@ -41,6 +34,16 @@ usemathjax: true
 	- [ ] $\beta$-VAE and other extensions
 	- [ ] connections to neuro and ICA
 - [ ] normalizing flows
+- [ ] continual learning
 
 ## Philosophy of Science
 - [ ] the structure of theories
+
+
+## Physics
+- [ ] non-equilibrium statistical mechanics
+- [ ] statistical mechanics of neural networks
+- [ ] theory of complex systems 
+	- [ ] networks 
+	- [ ] scaling laws 
+- [ ] biophysics

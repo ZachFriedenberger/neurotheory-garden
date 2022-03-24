@@ -17,7 +17,9 @@ title: Table of Contents
 
 # Machine Learning
 
-- Auto-encoder paper summary: [[Kingma and Welling (2013)]]
+- Variational Auto-Encoders
+	- [[Auto-Encoding Variational Bayes Summary]]
+	- [[LFADS Summary]]
 
 
 # Philosophy of Science
