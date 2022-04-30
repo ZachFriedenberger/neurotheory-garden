@@ -31,8 +31,11 @@ usemathjax: true
 ## Machine Learning
 - [ ] variational auto-encoders 🚧
 	- [ ] LFADS
-	- [ ] $\beta$-VAE and other extensions
+	- [ ] $\beta$-VAE 
+	- [ ] FactorVAE
 	- [ ] connections to neuro and ICA
+- [ ] GANs
+	- [ ] infoGAN
 - [ ] normalizing flows
 - [ ] continual learning
 

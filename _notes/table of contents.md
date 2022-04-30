@@ -7,7 +7,11 @@ title: Table of Contents
 ---
 
 # Neuroscience
-- [[predictive coding]]
+- [[NTA in RNNs with STP Summary]]
+- [[predictive coding|Predictive Coding]]
+- 
+
+
 
 
 
@@ -20,6 +24,8 @@ title: Table of Contents
 - Variational Auto-Encoders
 	- [[Auto-Encoding Variational Bayes Summary]]
 	- [[LFADS Summary]]
+	- [[Factor VAE Summary]]
+- 
 
 
 # Philosophy of Science

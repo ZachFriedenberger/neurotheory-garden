@@ -158,6 +158,5 @@ $$\begin{align}\mathbf{c}_{t} &= \text{RNN}^{\text{con}}(\mathbf{c}_{t}, [\tilde
 	- Any driven system can be rewritten as the dynamics of a system with extra dimensions
 
 
-# 5 Discussion
 
 
