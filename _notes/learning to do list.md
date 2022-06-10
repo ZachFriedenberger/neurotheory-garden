@@ -10,8 +10,7 @@ usemathjax: true
 
 
 ## Neuroscience
-- [ ] predictive coding 🚧
-- [ ]  free energy principle
+- [ ] predictive coding/free energy principle 🚧
 - [ ]  cerebellum
 - [ ]  cortex
 - [ ]  hippocampus
