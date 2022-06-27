@@ -1,11 +1,13 @@
 ---
-title: Green's Functions 🟥
+title: Green's Functions 
 usemathjax: true
 ---
 
+Status: 🟥
+
 # Motivation
 - We want a general technique to solve inhomogenous ordinary differential equations (i.e., dynamic inputs)
-- Basic idea is to find how the system responds to a dirac delta function input and then propagate the dynamic inputs using the greens function kernel
+- Basic idea is to find how the system responds to a pulse input and then propagate the dynamic inputs using the greens function kernel
 
 # Definition
 Suppose we have a linear differential equation of the form, 
@@ -129,4 +131,17 @@ $$u(x) = \frac{1}{2}\int_{-\infty}^{\infty} e^{-\vert x-x_{0}\vert} i_{ext}(x_{0
 
 - We can find new greens function with different boundary conditions by using a superposition of the free-space solutions
 
+For example, if we wish to solve the above equation on the domain $\Omega=[0, \infty)$ with boundary conditions $u(0)=u(+\infty)=0$
 
+Our previous greens function no longer holds for the new boundary condition
+
+for example, $G(0, x_{0})=-\frac{1}{2}e^{-\vert x_{0}\vert} \neq 0$ 
+
+
+The key insight is that becasue the differential equation is linear, sums of the free-space greens functions will satisfy the operator condition as long as the additional impluse functions are outside the domain of interest. 
+
+We can offset the constribution at $x=0$ by adding the reflection about the x axis
+
+$$G(x, x_{0}) = G_{\infty}(x, x_{0}) + G_{\infty}(-x, x_{0})$$
+
+ 
