@@ -10,7 +10,9 @@ usemathjax: true
 
 
 ## Neuroscience
+- [ ] 
 - [ ] predictive coding/free energy principle 🚧
+	- [ ] dendritic predictive coding
 - [ ]  cerebellum
 - [ ]  cortex
 - [ ]  hippocampus
