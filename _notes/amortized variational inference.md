@@ -1,7 +1,9 @@
 ---
-title: Amortized Variational Inference 🟨
+title: Amortized Variational Inference 
 usemathjax: true
 ---
+
+Status: 🟨
 
 - Idea that instead of optimizing a set of free parameters, we can optimize a patameterized function that maps points from observation space to the space of parameters.
 	- e.g., A neural network that maps observations to model parameters
