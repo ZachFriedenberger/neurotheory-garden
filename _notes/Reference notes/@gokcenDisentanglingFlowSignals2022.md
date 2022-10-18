@@ -27,4 +27,9 @@ year: 2022
 		- most likely not direct feedback because of the layers they are recording in
 - More V2->V1 feedback latents than V1->V2 latents (highly asymmetric)
 - Gaussian process timescales increases up the cortical heirachy
+
+
+# Take-home message
+- Methods like this are necessary for trying to make sense of high-deimensional neural data where there are distinct regions that are thought to communicate with each other
+- Need to try correlating the learnt latent variables with behavior or some external varaible for them to useful
 - 
