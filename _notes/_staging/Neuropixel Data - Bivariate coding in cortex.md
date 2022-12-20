@@ -61,4 +61,8 @@
 	
 
 
+# Questions
+
+- What theory/model of the visual system do we have in mind when looking at this data?
+- 
 
