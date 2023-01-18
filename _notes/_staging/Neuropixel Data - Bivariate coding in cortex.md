@@ -1,7 +1,7 @@
 # Neuropixel Data Analysis
 
 ## What we checked before
-1. Average resposne centered on the image change (across heriachy)
+1. Average response centered on the image change (across heriachy)
 	- ER increased on image change. 
 	- BF was constant around ~10%
 	
@@ -65,4 +65,17 @@
 
 - What theory/model of the visual system do we have in mind when looking at this data?
 - 
+
+# Spike sorting quality metrics
+
+## Firing rate
+
+## Presence ratio
+
+- Fraction of time during a session that a unit is spiking
+- Can be used to avoid drifitng units or 
+
+
+
+
 
