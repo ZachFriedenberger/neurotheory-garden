@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 
-# Welcome to the neurotheory garden!🧠
+# Welcome to the neurotheory.xyz!🧠
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
 This is a [[digital garden]] where I form new ideas and synapses by creating a network of interconnected notes. Notes cover a broad range of topics in theoretical neuroscience, machine learning, and philosophy of science.

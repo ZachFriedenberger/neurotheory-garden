@@ -1,7 +1,8 @@
 ---
-title: Predictive Coding 🟥
+title: Predictive Coding
 usemathjax: true
 ---
+Status: 🟥
 
 - Postulate that **neural circuits estimate probabilistic models** of other neural acticity and sensory inputs through feed-forward and feed-back processes. 
 

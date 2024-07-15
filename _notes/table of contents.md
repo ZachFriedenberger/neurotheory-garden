@@ -7,12 +7,9 @@ title: Table of Contents
 ---
 
 # Neuroscience
-- [[NTA in RNNs with STP Summary]]
+
 - [[predictive coding|Predictive Coding]]
 - 
-
-
-
 
 
 # Mathematics
@@ -27,5 +24,3 @@ title: Table of Contents
 	- [[Factor VAE Summary]]
 - 
 
-
-# Philosophy of Science
