@@ -4,7 +4,7 @@ usemathjax: true
 ---
 Status: 🟥
 
-- Postulate that **neural circuits estimate probabilistic models** of other neural acticity and sensory inputs through feed-forward and feed-back processes. 
+- Postulate that **neural circuits estimate probabilistic models** of other neural activity and sensory inputs through feed-forward and feed-back processes. 
 
 - Top-down neural projections are thought to carry predictions, while bottom-up connections carry predition errors, which update the state estimates. 
 

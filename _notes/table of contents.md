@@ -16,11 +16,5 @@ title: Table of Contents
 
 
 
-# Machine Learning
 
-- Variational Auto-Encoders
-	- [[Auto-Encoding Variational Bayes Summary]]
-	- [[LFADS Summary]]
-	- [[Factor VAE Summary]]
-- 
 
