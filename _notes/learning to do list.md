@@ -11,26 +11,39 @@ usemathjax: true
 
 ## Current
 
-- [ ] Dimensionality reduction in neuroscience
+- [ ] Dimensionality reduction 🚧
+	- [ ] PCA
 	- [ ] Probabilistic PCA
-	- [ ] Factor Analysis
-	- [ ] 
-
+	- [ ] Bayesian PCA
+	- [ ] Factor Analysis (FA)
+	- [ ] Gaussian processes / GPFA
+	- [ ] Canonical correlation analysis (CCA)
+	- [ ] Partial least squares (PLS)
+	- [ ] Fisher's linear discriminant (FLD)
+	- [ ] Linear discriminant analysis (LDA)
+	- [ ] Independent component analysis (ICA)
+	- [ ] jPCA
+	- [ ] Demixed PCA
+	- [ ] Targeted dimensionality reduction (TDR)
+	- [ ] Model-based targeted dimensionality reduction (mTDR)
+	- [ ] Preferential subspace identification (PSID)
+	- [ ] Subspace identification for linear systems (SID)
+	- [ ] Kernel PCA
+	- [ ] Sequential PCA
+	- [ ] LFADS 
+	- [ ] VAEs
+	- [ ] Isomap
+	- [ ] T-SNE
+	- [ ] UMAP
+	- [ ] Multi-dimensional scaling
+	
 
 ## Future
 
-- [ ] 
+- [ ] Fix and expand predictive coding notes
+- [ ] Topological data analysis
+	- [ ] persistent homology
+	- [ ] mapper algorithm
 
 
-
-## Machine Learning
-- [ ] variational auto-encoders 🚧
-	- [ ] LFADS
-	- [ ] $\beta$-VAE 
-	- [ ] FactorVAE
-	- [ ] connections to neuro and ICA
-- [ ] GANs
-	- [ ] infoGAN
-- [ ] normalizing flows
-- [ ] continual learning
 

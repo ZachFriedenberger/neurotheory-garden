@@ -6,13 +6,7 @@ title: Table of Contents
 
 ---
 
-# Neuroscience
 
-- [[predictive coding|Predictive Coding]]
-- 
-
-
-# Mathematics
 
 
 

@@ -1,7 +1,25 @@
 ---
-title: What is a digital garden? 🟥
+title: What is a digital garden?
+---
 ---
 
+Neuro Wikipedia-lite
+
+Balderdash
+
+A place to organize my thoughts and try to remember the things I read
+
+Definitely not a blog
+
+
+> "I write because I don't know what I think until I read what I say"
+> 
+>  Flannery O'Conner
+
+
+> "What I cannot create I do not understand "
+> 
+>  Richard Feynman
 
 
 
@@ -10,5 +28,4 @@ title: What is a digital garden? 🟥
 
 
 
-Thanks to the following sites for templates, tutorials, and inspiration. 
- - 
+
