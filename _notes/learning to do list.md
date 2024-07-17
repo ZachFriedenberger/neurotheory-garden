@@ -9,41 +9,66 @@ usemathjax: true
 🚧 is where my focus currently is.
 
 
-## Current
+# Current
 
-- [ ] Dimensionality reduction 🚧
-	- [ ] PCA
-	- [ ] Probabilistic PCA
-	- [ ] Bayesian PCA
-	- [ ] Factor Analysis (FA)
-	- [ ] Gaussian processes / GPFA
-	- [ ] Canonical correlation analysis (CCA)
-	- [ ] Partial least squares (PLS)
-	- [ ] Fisher's linear discriminant (FLD)
-	- [ ] Linear discriminant analysis (LDA)
-	- [ ] Independent component analysis (ICA)
-	- [ ] jPCA
-	- [ ] Demixed PCA
-	- [ ] Targeted dimensionality reduction (TDR)
-	- [ ] Model-based targeted dimensionality reduction (mTDR)
-	- [ ] Preferential subspace identification (PSID)
-	- [ ] Subspace identification for linear systems (SID)
-	- [ ] Kernel PCA
-	- [ ] Sequential PCA
-	- [ ] LFADS 
-	- [ ] VAEs
-	- [ ] Isomap
-	- [ ] T-SNE
-	- [ ] UMAP
-	- [ ] Multi-dimensional scaling
+## Dimensionality reduction 🚧
+
+
+### Classic linear methods
+
+- [ ] PCA 🚧
+- [x] [[probabilistic PCA]]
+- [ ] Bayesian PCA
+- [ ] Factor Analysis (FA) 🚧
+	- [ ] Some examples from Neuroscience?
+- [ ] Gaussian Process Factor Analysis (GPFA) 🚧
+- [ ] Canonical correlation analysis (CCA)
+- [ ] jPCA
+- [ ]  seqPCA
+
+![[for_exceptional_broski.png]]
+
+#### Regression?
+- [ ] Partial least squares (PLS)
+- [ ] Fisher's linear discriminant (FLD)
+- [ ] Linear discriminant analysis (LDA)
+- [ ] Principal component regression (PCR)
+- [ ] Independent component analysis (ICA)
+- [ ] GLM methods for dimensionality reduction?
+
+### Targeted approaches
+
+Methods that seek subspaces that are relate to behavior or task variables (i.e., measured experimental variables)
+
+- [ ] Demixed PCA
+- [ ] Targeted dimensionality reduction (TDR)
+- [ ] Model-based targeted dimensionality reduction (mTDR)
+- [ ] Preferential subspace identification (PSID)
+- [ ] Subspace identification for linear systems (SID)
+
+### Latent dynamics 
+
+- [ ] LFADS 
+- [ ] VAEs
+
+### Nonlinear methods
+
+- [ ] Kernel PCA
+- [ ] Isomap
+- [ ] T-SNE
+- [ ] UMAP
+- [ ] Multi-dimensional scaling
+
+- [ ] GLM methods for dimensionality reduction
 	
 
-## Future
+# Future
 
-- [ ] Fix and expand predictive coding notes
+- [ ] Fix, expand, and post predictive coding notes
 - [ ] Topological data analysis
 	- [ ] persistent homology
 	- [ ] mapper algorithm
+- [ ] Causal inference
 
 
 

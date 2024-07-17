@@ -15,7 +15,7 @@ tags:
 
 Similar to [[dPCA|demixed PCA]] and the original [[TDR]] method, in mTDR the goal is to find the subspaces within the neural activity that best corresponds to specific task variables (e.g., stimulus parameters, behavior, or task outcomes). However, unlike the original mTDR is not limited to a one-dimensional subspace per task variable and can easily handle missing data as a result of its probabilistic formulation. 
 
-I like to think about this as being similar to the extension of [[PCA 🚧]] to [[probabilistic PCA 🚧]]. Which was allows for the formulation of [[Bayesian PCA]] and methods such as - for identifying the dimensionality of subspaces.  However, the original mTDR papers (Aoi & Pillow 2018,  and Aoi et al. 2020) took an alterative approach and created a greedy search algorithm. 
+I like to think about this as being similar to the extension of [[PCA 🚧]] to [[probabilistic PCA]]. Which was allows for the formulation of [[Bayesian PCA]] and methods such as - for identifying the dimensionality of subspaces.  However, the original mTDR papers (Aoi & Pillow 2018,  and Aoi et al. 2020) took an alterative approach and created a greedy search algorithm. 
 
 
 ### Model definition

@@ -3,9 +3,7 @@ title: What is a digital garden?
 ---
 ---
 
-Neuro Wikipedia-lite
-
-Balderdash
+Wikipedia-lite, balderdash, a collection of notes 
 
 A place to organize my thoughts and try to remember the things I read
 

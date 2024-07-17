@@ -2,6 +2,7 @@
 title: Dimensionality reduction for neural data
 tags:
   - dimensionality-reduction
+usemathjax: true
 ---
 ---
 
@@ -70,7 +71,7 @@ Optimization gets increasingly tricky as methods become more complex...
 Use covariance matrix of observed firing rates. Static time points. 
 
 - [[PCA 🚧]]
-- [[probabilistic PCA 🚧]]
+- [[probabilistic PCA]]
 - [[FA 🚧]]
 
 
