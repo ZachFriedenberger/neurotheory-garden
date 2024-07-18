@@ -1,5 +1,5 @@
 ---
-title: Factor Analysis (FA)
+title: Factor Analysis
 usemathjax: true
 tags:
   - dimensionality-reduction

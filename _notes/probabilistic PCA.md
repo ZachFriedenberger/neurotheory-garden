@@ -13,7 +13,7 @@ tags:
 ---
 
 
-To extend [[PCA 🚧]] to a probabilistic framework, we simply model the data generation process using a latent variable model. While conventional [[PCA 🚧]] is formulated as a projection from a $D$ dimensional data space to an $M$ dimensional subspace, probabilistic PCA is a mapping from an $M$ dimensional latent space to the data space. We will see that the conventional [[PCA 🚧]] procedure appears doing [[MLE|maximum likelihood estimation]]. 
+To extend [[PCA 🚧]] to a probabilistic framework, we simply model the data generation process using a latent variable model. While conventional [[PCA 🚧]] is formulated as a projection from a $D$ dimensional data space to an $M$ dimensional subspace, probabilistic PCA is a mapping from an $M$ dimensional latent space to the data space. We will see that the conventional [[PCA 🚧]] procedure appears doing [[MLE 🚧|maximum likelihood estimation]]. 
 
 By defining PCA a generative model, it is easy to formulate [[Bayesian PCA]] by defining prior distributions over the parameters  ($W$, $\mu$, and $\sigma$). Using the Bayesian formulation allows us to automatically infer the number of subspace dimensions using methods such as [[ARD|automatic subspace determination]]. 
 

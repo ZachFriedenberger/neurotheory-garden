@@ -8,7 +8,7 @@ title: Statistical Inference
 
 I am currently writing notes on different [[dimensionality reduction 🚧|dimensionality reduction]] techniques. Here are the most common inference methods I have encountered so far:
 
-- [[MLE|Maximum likelihood estimation]]
+- [[MLE 🚧|Maximum likelihood estimation]]
 - [[EM algorithm]]
 - [[Variational inference]]
 - [[MCMC|Markov Chain Monte Carlo]]
