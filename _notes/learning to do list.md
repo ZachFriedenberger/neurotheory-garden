@@ -69,6 +69,11 @@ Methods that seek subspaces that are relate to behavior or task variables (i.e.,
 	- [ ] persistent homology
 	- [ ] mapper algorithm
 - [ ] Causal inference
+- [ ] Make notes on different bursting neuron models
+	- [ ] Include some simulations in the notes
+	- [ ] Include a note on my own paper
+- [ ] Notes on point-process models
+
 
 
 

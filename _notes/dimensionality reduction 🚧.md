@@ -74,6 +74,7 @@ Use covariance matrix of observed firing rates. Static time points.
 - [[probabilistic PCA]]
 - [[FA 🚧]]
 
+Solutions depend on the eigen decomposition of the sample covariance matrix. Either directly when find a solution analytically, or up to some rotation if solved numerically with optimization. 
 
 ### Time series methods
 
@@ -104,7 +105,9 @@ Project the data in such a way that the dependent variables (i.e., task or behav
 Want to demix the effects of multiple dependent variables. Find a single axis for each dependent variable. 
 
 - [[TDR]] regression approach
+- [[mTDR 🚧]] probabilistic regression approach
 - Covariate approach -> Machens, C.K. et al. Functional, but not anatomical, separation of ‘what’ and ‘when’ in prefrontal cortex. J. Neurosci. 30, 350–360 (2010).
+
 - [[Demixed PCA]] probabilistic approach
 
 "covariate approach when there is no clear ordering to stimulus intensities and regression approach when there is a continuum of values"
